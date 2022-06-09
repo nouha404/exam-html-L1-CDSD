@@ -1,0 +1,441 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    /* background-color: #2C3C44; */
+    font-family: Open Sans,Arial,sans-serif;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 70px ;
+    background: url('./images/Rocket-Digitiz-8829301.png');
+    background-color: #2C3C44; 
+    position: fixed;
+    width: 100%;
+    z-index: 2;
+    
+}
+.logo {
+    transform: translateX(-23%) scale(0.9);      
+}
+.logo a img {
+    transform: scale(0.2);  
+}
+
+/* Partie navigation */
+.nav {
+   
+    transform: translateX(82%);
+    width: 50%;  
+    position: fixed;
+    
+}
+
+.span  {
+    padding: 15px;
+    display: flex;
+    justify-content: space-around;
+    
+
+}
+.span a {
+    text-decoration: none;
+    color: white;
+    font-weight: 600;
+    width: 30rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 20px;
+      
+    
+}
+.span a:nth-child(1){
+    transform: translateX(40px);
+}
+
+.span a:nth-child(2){
+    transform: translateX(45px);
+}
+.span a:nth-child(3){
+    transform: translateX(45px);
+}
+.span a:nth-child(4){
+    width: 70rem;
+    transform: translateX(35px);
+  
+}
+.span a:nth-child(5){
+  
+    transform: translateX(20px);
+  
+}
+/* h2 {
+    color: white;
+    height: 20vh;
+    
+} */
+.main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color : #42BA93;
+    color: white;
+    height: 27vh;
+   
+}
+.main span {
+    font-size: 1.9rem;
+    
+}
+.cart-content, .cart-content2, .cart-content3 , .cart-content4, .cart-content5 , .cart-content6 , .cart-content7 , .cart-content8 , .cart-content9 , .cart-content10 , .cart-content11 , .cart-content12 , .cart-content13 , .cart-content14 , .cart-content15 {  
+    
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: white;
+   
+}
+.card{
+    
+    border: 1px solid white;
+    width: 45vh;
+    box-shadow: 0px 9px 18px 5px #ECECEC;
+    border-radius: 10px; 
+}
+.text-block {
+    display: flex;
+    flex-direction: column;
+    font-size: 1rem;
+    padding:  25px;
+    line-height: 1.2;
+   
+}
+.text-block span {
+    font-weight: bold;
+    line-height: 1.2;
+    color: #373A3E;
+    
+}
+.text-block p {
+    padding:  10px 0;
+    color: #373A3E;
+    font-weight: 500;
+    
+}
+.text-block a {
+    color : #42BA93;
+    text-decoration: none;
+}
+.image-card {
+    height: 25vh;
+}
+.cart-content {
+    margin-top: 50px;
+   
+}
+.cart-content .image-card {
+    background: url('../images_agence/blob.jfif') center / cover;
+}
+.cart-content .image-card2 {
+    background: url('../images/guide.webp') center / cover;
+    height: 25vh;
+}
+.cart-content .image-card3 {
+    background: url('../images/QUel-sont.webp') center / cover;
+    height: 25vh;
+}
+.txt {
+    color: #57564E!important;
+    padding: 10px 0 0;
+    opacity: 0.5;
+}
+.cart-content2  {
+    height: 80vh;
+}
+.cart-content2 .image-card {
+    background: url('../images_comparatifs/Chef-de-projet-communication.webp') center / cover;
+    height: 25vh;
+}
+.cart-content2 .image-card2 {
+    background: url('../images_comparatifs/Agence-Google-Ads.webp') center / cover;
+    height: 25vh;
+} 
+.cart-content2 .image-card3 {
+    background: url('../images_comparatifs/Guide-dimensions-Instagram.webp') center / cover;
+    height: 25vh;
+}
+.cart-content3 {
+    height: 80vh;
+}
+.cart-content3 .image-card {
+    background: url('../images_agence/crm.webp') center / cover;
+    height: 37vh;
+}
+
+.cart-content3 .image-card2 {
+    background: url('../images_articles/WEB-3.0-867733.png') center / cover;
+    height: 30vh;
+}
+.cart-content3 .image-card3 {
+    background: url('../images_agence/Identité-numérique.webp') center / cover;
+    height: 25vh;
+}
+.cart-content4  {
+    height: 80vh;
+}
+.cart-content4 .image-card {
+    background: url('../images_agence/Erreur-404.webp') center / cover;
+    height: 30vh;
+}
+.cart-content4 .card .image-card2 {
+    background: url('../images_agence/Stratégie-de-contenu.webp') center / cover;
+   
+    height: 25vh;
+} 
+.cart-content4 .card:nth-child(2) {
+    margin-top: 90px;
+}
+.cart-content4 .card:nth-child(3) {
+    margin-top: 20px;
+}
+.cart-content4 .card .image-card3 {
+    background: url('../images_agence/7-stratégies-de-vente-pour-attirer-et-fidéliser-vos-clients.webp') center / cover;
+   
+    height: 25vh;
+}
+.cart-content5 {
+    height: 80vh;
+}
+.cart-content5 .image-card {
+    background: url('../images_agence/Plateformes-NFT.webp') center / cover;
+    height: 25vh;
+}
+.cart-content5 .image-card2 {
+    background: url('../images_agence/Achat-en-ligne-Comment-vérifier-la-fiabilité-dun-site-web.webp') center / cover;
+    height: 25vh;
+}
+.cart-content5 .image-card3 {
+    background: url('../images_articles/Certification-Google-Ads-4173829.png') center / cover;
+    height: 25vh;
+}
+.cart-content6 {
+    height: 80vh;
+}
+.cart-content6 .image-card {
+    background: url('../images_agence/Ecoomerce.png') center / cover;
+    height: 25vh;
+}
+.cart-content6 .image-card2 {
+    background: url('../images_agence/crm.webp') center / cover;
+    height: 25vh;
+}
+.cart-content6 .image-card3 {
+    background: url('../images_articles/acc.png') center / cover;
+    height: 25vh;
+}
+.cart-content7 {
+    height: 80vh;
+}
+.cart-content7 .image-card {
+    background: url('../images_agence/Smart-Contract.webp') center / cover;
+    height: 25vh;
+}
+.cart-content7 .image-card2 {
+    background: url('../images_articles/Untitled-5958714.png') center / cover;
+    height: 25vh;
+}
+.cart-content7 .image-card3 {
+    background: url('../images_articles/Facturation-en-ligne-3548944.png') center / cover;
+    height: 25vh;
+}
+.cart-content8 {
+    height: 80vh;
+}
+.cart-content8 .image-card {
+    background: url('../images_agence/Virtual-Event.webp') center / cover;
+    height: 25vh;
+}
+.cart-content8 .image-card2 {
+    background: url('../images_articles/Webdesign-6968434.png') center / cover;
+    height: 25vh;
+}
+.cart-content8 .image-card3 {
+    background: url('../images_articles/PIM-7280042.png') center / cover;
+    height: 25vh;
+}
+.cart-content9 {
+    height: 80vh;
+}
+.cart-content9 .image-card {
+    background: url('../images_agence/Stratégie-prix-ecommerce.webp') center / cover;
+    height: 25vh;
+}
+.cart-content9 .image-card2 {
+    background: url('../images_articles/conception.png') center / cover;
+    height: 25vh;
+}
+.cart-content9 .image-card3 {
+    background: url('../images_agence/Taux-de-rebond.webp') center / cover;
+    height: 25vh;
+}
+.cart-content10 {
+    height: 80vh;
+}
+.cart-content10 .image-card {
+    background: url('../images_agence/Languages-de-programmation.webp') center / cover;
+    height: 25vh;
+}
+.cart-content10 .image-card2 {
+    background: url('../images_agence/Quand-publier-sur-Instagram.webp') center / cover;
+    height: 25vh;
+}
+.cart-content10 .image-card3 {
+    background: url('../images_agence/MLM.webp') center / cover;
+    height: 25vh;
+}
+.cart-content11 {
+    height: 80vh;
+}
+.cart-content11 .image-card {
+    background: url('../images_agence/Investir-crypto-entreprise.webp') center / cover;
+    height: 25vh;
+}
+.cart-content11 .image-card2 {
+    background: url('../images_agence/fr-com.webp') center / cover;
+    height: 25vh;
+}
+.cart-content11 .image-card3 {
+    background: url('../images_agence/No-code-Low-code.webp') center / cover;
+    height: 25vh;
+}
+.cart-content12 {
+    height: 80vh;
+}
+.cart-content12 .image-card {
+    background: url('../images_agence/Digital-Food.webp') center / cover;
+    height: 25vh;
+}
+.cart-content12 .image-card2 {
+    background: url('../images_agence/Lancer-podcast.webp') center / cover;
+    height: 25vh;
+}
+.cart-content12 .image-card3 {
+    background: url('../images_agence/Commnunication-B2B.webp') center / cover;
+    height: 25vh;
+}
+.cart-content13 {
+    height: 80vh;
+}
+.cart-content13 .image-card {
+    background: url('../images_agence/Recruter-ingénieur-informatique.webp') center / cover;
+    height: 25vh;
+}
+.cart-content13 .image-card2 {
+    background: url('../images_agence/signature.png') center / cover;
+    height: 25vh;
+}
+.cart-content13 .image-card3 {
+    background: url('../images_agence/visionner.png') center / cover;
+    height: 25vh;
+}
+.cart-content14 {
+    height: 80vh;
+}
+.cart-content14 .image-card {
+    background: url('../images_agence/conseil.png') center / cover;
+    height: 25vh;
+}
+.cart-content14 .image-card2 {
+    background: url('../images_agence/entre.png') center / cover;
+    height: 25vh;
+}
+.cart-content14 .image-card3 {
+    background: url('../images_agence/Quelles-sont.png') center / cover;
+    height: 25vh;
+}
+.cart-content15 .image-card {
+    background: url('../images_agence/entreprise.png') center / cover;
+    height: 25vh;
+}
+.cart-content15 .image-card2 {
+    background: url('../images_agence/ligne.png') center / cover;
+    height: 25vh;
+}
+.cart-content15 .image-card3 {
+    background: url('../images_agence/Investissement-crypto-4194770.png') center / cover;
+    height: 25vh;
+}
+.main-precedant {
+    height: 15vh;
+    display: flex;
+    align-items: center;
+    
+}
+.main-precedant a {
+    text-decoration: none;
+    color : #42BA93;
+    width: 25%;
+    display: flex;
+    justify-content: center;
+    font-size: 1.2rem;
+
+}
+.items {
+    display: flex;
+    height: 45vh;
+    justify-content: space-around;
+   
+    align-items: center;
+}
+.item {
+    display: flex;
+    flex-direction: column;
+    
+}
+.item a {
+    color : #42BA93;
+    text-decoration: none;
+    font-size: 1.3rem;
+    padding: 15px;
+}
+.item p {
+    padding: 15px;
+    color: white;
+}
+.item ul li {
+    line-height: 1.6;
+    color: white;
+    
+}
+.item ul {
+    padding: 15px
+}
+.copyright {
+    padding: 15px;
+    font-size: 1rem;
+    text-align: center;
+    height: 8vh;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    background-color: #1C242C;
+    
+}
+a:hover {
+    color : #42BA93;
+}
+.copyright a {
+    text-decoration: none;
+    color: #57564E;
+    width: 40%;
+}
+footer {
+    background-color: #2C3C44;
+    font-family: Open Sans,Arial,sans-serif;
+}

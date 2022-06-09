@@ -1,0 +1,196 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    /* background-color: #2C3C44; */
+    font-family: Open Sans,Arial,sans-serif;
+    
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 70px ;
+    background: url('./images/Rocket-Digitiz-8829301.png');
+    background-color: #2C3C44; 
+    position: fixed;
+    width: 100%;
+    z-index: 2;
+    
+}
+.logo {
+    transform: translateX(-23%) scale(0.9);      
+}
+.logo a img {
+    transform: scale(0.2);  
+}
+
+/* Partie navigation */
+.nav {
+   
+    transform: translateX(82%);
+    width: 50%;  
+    position: fixed;
+    
+}
+
+.span  {
+    padding: 15px;
+    display: flex;
+    justify-content: space-around;
+    
+
+}
+.span a {
+    text-decoration: none;
+    color: white;
+    font-weight: 600;
+    width: 30rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 20px;
+      
+    
+}
+.span a:nth-child(1){
+    transform: translateX(40px);
+}
+
+.span a:nth-child(2){
+    transform: translateX(45px);
+}
+.span a:nth-child(3){
+    transform: translateX(45px);
+}
+.span a:nth-child(4){
+    width: 70rem;
+    transform: translateX(35px);
+  
+}
+.span a:nth-child(5){
+  
+    transform: translateX(20px);
+  
+}
+
+.main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color : #18CC94;
+    color: white;
+    height: 31vh;
+   
+}
+.main span {
+    font-size: 1.9rem;
+    
+}
+.container {
+    height: 40vh;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    line-height: 2;
+    margin-left: 100px;
+    opacity: 0.8;
+}
+.container a {
+    color : #42BA93;
+    text-decoration: none;
+}
+.container p:last-child {
+    font-style: italic;
+    margin-top: 30px;
+}
+
+.txt {
+    color: #57564E!important;
+    padding: 10px 0 0;
+    opacity: 0.5;
+}
+
+.main-precedant {
+    height: 15vh;
+    display: flex;
+    align-items: center;
+    visibility: hidden;
+    
+}
+.main-precedant a {
+    text-decoration: none;
+    color : #42BA93;
+    width: 25%;
+    display: flex;
+    justify-content: center;
+    font-size: 1.2rem;
+
+}
+.items {
+    display: flex;
+    height: 45vh;
+    justify-content: space-around;
+   
+    align-items: center;
+}
+.item {
+    display: flex;
+    flex-direction: column;
+    
+}
+.item a {
+    color : #42BA93;
+    text-decoration: none;
+    font-size: 1.3rem;
+    padding: 15px;
+}
+.item p {
+    padding: 15px;
+    color: white;
+}
+.item ul li {
+    line-height: 1.6;
+    color: white;
+    
+}
+.item ul {
+    padding: 15px
+}
+.copyright {
+    padding: 15px;
+    font-size: 1rem;
+    text-align: center;
+    height: 8vh;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    background-color: #1C242C;
+    
+}
+a:hover {
+    color : #42BA93;
+}
+.copyright a {
+    text-decoration: none;
+    color: #57564E;
+    width: 40%;
+}
+.main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+.main p {
+    padding: 15px 0;
+  
+}
+footer {
+    background-color: #2C3C44;
+    font-family: Open Sans,Arial,sans-serif;
+}
